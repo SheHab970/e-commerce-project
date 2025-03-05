@@ -1,0 +1,48 @@
+.login_container {
+  margin: 150px auto;
+  background-color: cadetblue;
+  max-width:40%;
+  height: fit-content;
+  border-radius: 5px;
+  color: aquamarine;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.fform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.fform  label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 15px 0;
+}
+.fform  input {
+  border: 1px springgreen solid;
+  background-color: inherit;
+  height: 30px;
+  border-radius: 5px;
+}
+.fform  button {
+  max-width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 100px;
+  border-radius: 10px;
+  border: 1px solid seagreen;
+  background-color: springgreen;
+  cursor: pointer;
+}
+.fform button:hover {
+  background-color: rgba(61, 60, 60, 0.007);
+}
+p {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  a {
+    margin-left: 10px;
+  }
+}
